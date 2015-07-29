@@ -612,6 +612,9 @@ textarea {
 .social-links li.medium a:hover {
 	color: #dd4b39;
 }
+.social-links li.github a:hover {
+	color: RGBA(30, 104, 35, 1);
+}
 .social-links li.youtube a:hover {
 	color: #b31217;
 }
@@ -644,6 +647,13 @@ textarea {
 	display: inline-block;
 	float: none;
 }
+/*.text-center.filters .nav-pills > img {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+	float: none;
+}*/
 .isotope-container {
 	overflow: hidden;
 }
