@@ -11,6 +11,26 @@ File Description: Place here your custom CSS styles
 .devicons{
   font-size: 5em;
 }
+
+.devicons:hover{
+  color: RGBA(50, 154, 234, 1);
+}
+
+.text-center{
+  font-weight: 200;
+}
+
+.text-center span{
+  font-weight: 700;
+}
+
+/*.media-heading{
+  display:none;
+}
+
+.media-heading:hover{
+  display:block;
+}*/
 /*
 .aboutBG{
   background-color: RGBA(52, 52, 52, 1);
@@ -42,4 +62,13 @@ File Description: Place here your custom CSS styles
 .fa-code{
   font-size: 5em;
   padding-left: 2.75em;
+}
+
+@media (max-width:991px){
+  .header-logo{
+    width: 0px;
+    height: 0px;
+    display:none;
+
+  }
 }

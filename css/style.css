@@ -609,6 +609,9 @@ textarea {
 .social-links li.googleplus a:hover {
 	color: #dd4b39;
 }
+.social-links li.medium a:hover {
+	color: #dd4b39;
+}
 .social-links li.youtube a:hover {
 	color: #b31217;
 }
