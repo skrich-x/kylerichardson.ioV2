@@ -20,3 +20,26 @@ File Description: Place here your custom CSS styles
   font-size:1em;
   color:RGBA(52, 52, 52, 1);
 }
+
+.header-logo{
+  width: 120px;
+  height: auto;
+}
+
+
+.fa-lightbulb-o{
+  font-size: 5em;
+  padding-left:3em;
+}
+
+
+.fa-pencil{
+  font-size: 5em;
+  padding-left:2.8em;
+
+}
+
+.fa-code{
+  font-size: 5em;
+  padding-left: 2.75em;
+}
