@@ -590,7 +590,7 @@ textarea {
 	font-size: 36px;
 }
 .social-links li a {
-	color: #333333;
+	color: #fff;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -613,7 +613,7 @@ textarea {
 	color: #dd4b39;
 }
 .social-links li.github a:hover {
-	color: RGBA(30, 104, 35, 1);
+	color: RGBA(100, 40, 128, 1);
 }
 .social-links li.youtube a:hover {
 	color: #b31217;

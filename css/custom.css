@@ -36,6 +36,9 @@ File Description: Place here your custom CSS styles
   background-color: RGBA(52, 52, 52, 1);
 }*/
 
+.devBio{
+  font-size: 1.25em;
+}
 .media-heading{
   font-size:1em;
   color:RGBA(52, 52, 52, 1);
@@ -71,7 +74,6 @@ File Description: Place here your custom CSS styles
   height: 6em;
 }
 
-
 .operatingSystem{
   color:RGBA(48, 82, 108, 1);
   font-size: 2em;
@@ -83,8 +85,12 @@ File Description: Place here your custom CSS styles
 .osHeading{
   text-align: center;
 }
+.connect{
+  text-align: center;
+  font-weight: 200;
+}
 .social-links li.medium a:hover {
-	color: #dd4b39;
+	color: RGBA(87, 173, 104, 1);
 }
 @media (max-width:991px){
   .header-logo{
