@@ -9,9 +9,14 @@ File Description: Place here your custom CSS styles
 */
 
 .devicons{
-  font-size: 6em;
+  font-size: 5em;
 }
-
+/*
 .aboutBG{
   background-color: RGBA(52, 52, 52, 1);
+}*/
+
+.media-heading{
+  font-size:1em;
+  color:RGBA(52, 52, 52, 1);
 }
