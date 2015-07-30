@@ -659,6 +659,7 @@ textarea {
 }
 .isotope-item {
 	margin-bottom: 20px;
+	overflow: hidden;
 }
 .isotope-item .btn-default {
 	color: #999999;
