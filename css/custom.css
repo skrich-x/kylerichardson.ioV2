@@ -41,10 +41,10 @@ File Description: Place here your custom CSS styles
 .media-heading:hover{
   display:block;
 }*/
-/*
+
 .aboutBG{
-  background-color: RGBA(52, 52, 52, 1);
-}*/
+  background-color: RGBA(224, 224, 224, 1);
+}
 
 .devBio{
   font-size: 1.25em;
@@ -108,9 +108,15 @@ File Description: Place here your custom CSS styles
   text-align: center;
   font-weight: 200;
 }
+
 .social-links li.medium a:hover {
 	color: RGBA(87, 173, 104, 1);
 }
+
+.footer{
+  background-color: RGBA(224, 224, 224, 1);
+}
+
 @media (max-width:991px){
   .header-logo{
     width: 0px;
