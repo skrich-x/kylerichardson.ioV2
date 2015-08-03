@@ -125,8 +125,9 @@ File Description: Place here your custom CSS styles
 }
 
 .footer{
-  /*background-color: RGBA(224, 224, 224, 1);*/
-  background-image: url('../images/Top_viewDesk.jpg');
+  background-color: RGBA(224, 224, 224, 1);
+  /*background-image: url('../images/mac-glasses.jpg');*/
+  text-align: center;
 }
 
 @media (max-width:991px){
