@@ -33,14 +33,25 @@ File Description: Place here your custom CSS styles
 .text-center span{
   font-weight: 700;
 }
+.list-horizontal{
+  text-align: center;
+}
 
-/*.media-heading{
-  display:none;
+.techSkillBanner{
+  font-weight: 200;
+}
+
+.media-heading{
+  width: 100%;
 }
 
 .media-heading:hover{
   display:block;
-}*/
+}
+
+.media-right{
+  text-align: right;
+}
 
 .aboutBG{
   background-color: RGBA(224, 224, 224, 1);
@@ -114,7 +125,8 @@ File Description: Place here your custom CSS styles
 }
 
 .footer{
-  background-color: RGBA(224, 224, 224, 1);
+  /*background-color: RGBA(224, 224, 224, 1);*/
+  background-image: url('../images/Top_viewDesk.jpg');
 }
 
 @media (max-width:991px){
