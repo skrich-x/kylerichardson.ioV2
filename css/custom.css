@@ -103,6 +103,9 @@ File Description: Place here your custom CSS styles
   text-decoration: none;
 }
 
+.container a{
+  text-decoration: none;
+}
 
 .operatingSystem{
   color:RGBA(48, 82, 108, 1);
