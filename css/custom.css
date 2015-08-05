@@ -138,6 +138,17 @@ File Description: Place here your custom CSS styles
     width: 0px;
     height: 0px;
     display:none;
+  }
 
+}
+
+@media (max-width: 768px){
+
+  .banner video{
+    display: none;
+  }
+
+  .banner-image{
+    background-image: url("../images/Top_viewDesk.jpg");
   }
 }
