@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-kylrichardson.io Is a highly modified version of the worthy bootstrap Template.
+[Visit kylerichardson.io](http://kylerichardson.io/)
+
 
 
 Worthy Bootstrap Template
 =======================================================================
 - Author: HtmlCoder (http://htmlcoder.me)
 - Contact: http://htmlcoder.me/contact
-- 
+-
 Resources
 ------------------------------------------------------
 - Bootstrap Framework by @mdo and @fat - http://getbootstrap.com/
@@ -17,5 +17,3 @@ Resources
 - Isotope Jquery plugin by metafizzy.co - http://isotope.metafizzy.co/
 - Backstrech by Scott Robbin - http://srobbin.com/jquery-plugins/backstretch/
 =======
-[Visit kylerichardson.io](http://kylerichardson.io/)
->>>>>>> 87896b68c098772377097cefe98a0ef9b1e7db35
