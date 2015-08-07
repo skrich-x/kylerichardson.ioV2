@@ -151,4 +151,16 @@ File Description: Place here your custom CSS styles
   .banner-image{
     background-image: url("../images/Top_viewDesk.jpg");
   }
+
+  .banner-caption h1 {
+      font-size: 2.5em;
+  }
+
+  .devicons{
+    font-size: 3em;
+  }
+
+  .devicons:focus{
+    color: RGBA(50, 154, 234, 1);
+  }
 }
