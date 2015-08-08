@@ -8,6 +8,7 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+/* DEVICON ICON STYLING SKILLS SECTION */
 .devicons{
   font-size: 5em;
 }
@@ -15,16 +16,7 @@ File Description: Place here your custom CSS styles
 .devicons:hover{
   color: RGBA(50, 154, 234, 1);
 }
-/*Trying to complete "Typing animation"
-/*.type{
-  white-space: nowrap;
-  overflow: hidden;
-  animation: type 5s steps(40, end) 1;
-}
 
-@-webkit-keyframes type{
-	from{ width: 0;}
-}*/
 
 .text-center{
   font-weight: 200;
