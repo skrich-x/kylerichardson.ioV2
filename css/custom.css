@@ -155,4 +155,8 @@ File Description: Place here your custom CSS styles
   .devicons:focus{
     color: RGBA(50, 154, 234, 1);
   }
+
+  .about-icons li{
+    display: none;
+  }
 }
