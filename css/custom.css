@@ -8,61 +8,10 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
-.devicons{
-  font-size: 5em;
-}
 
-.devicons:hover{
-  color: RGBA(50, 154, 234, 1);
-}
-/*Trying to complete "Typing animation"
-/*.type{
-  white-space: nowrap;
-  overflow: hidden;
-  animation: type 5s steps(40, end) 1;
-}
-
-@-webkit-keyframes type{
-	from{ width: 0;}
-}*/
-
+/* === BANNER === */
 .text-center{
   font-weight: 200;
-}
-
-.text-center span{
-  font-weight: 700;
-}
-.list-horizontal{
-  text-align: center;
-}
-
-.techSkillBanner{
-  font-weight: 200;
-}
-
-.media-heading{
-  width: 100%;
-}
-
-.media-heading:hover{
-  display:block;
-}
-
-.media-right{
-  text-align: right;
-}
-
-.aboutBG{
-  background-color: RGBA(224, 224, 224, 1);
-}
-
-.devBio{
-  font-size: 1.25em;
-}
-.media-heading{
-  font-size:1em;
-  color:RGBA(52, 52, 52, 1);
 }
 
 .header-logo{
@@ -70,6 +19,19 @@ File Description: Place here your custom CSS styles
   height: auto;
 }
 
+.text-center span{
+  font-weight: 700;
+}
+
+
+/* === ABOUT SECTION === */
+.aboutBG{
+  background-color: RGBA(224, 224, 224, 1);
+}
+
+.devBio{
+  font-size: 1.25em;
+}
 
 .fa-lightbulb-o{
   font-size: 5em;
@@ -94,6 +56,27 @@ File Description: Place here your custom CSS styles
   margin:0 auto;
   height: 6em;
 }
+
+
+/* === SKILLS SECTION === */
+.devicons{
+  font-size: 5em;
+}
+
+.devicons:hover{
+  color: RGBA(50, 154, 234, 1);
+}
+
+.techSkillBanner{
+  font-weight: 200;
+}
+
+.list-horizontal{
+  text-align: center;
+}
+
+
+/* === PORTFOLIO SECTION === */
 .modal-icon{
   font-size: 2em;
   padding-right: 1em;
@@ -107,17 +90,8 @@ File Description: Place here your custom CSS styles
   text-decoration: none;
 }
 
-.operatingSystem{
-  color:RGBA(48, 82, 108, 1);
-  font-size: 2em;
-}
-.operatingSystem img{
-  color:RGBA(48, 82, 108, 1);
-  height: 76px;
-}
-.osHeading{
-  text-align: center;
-}
+
+/* ==== CONNECT BANNER === */
 .connect{
   text-align: center;
   font-weight: 200;
@@ -127,12 +101,17 @@ File Description: Place here your custom CSS styles
 	color: RGBA(87, 173, 104, 1);
 }
 
+
+/* === FOOTER CONTACT === */
+
 .footer{
   background-color: RGBA(224, 224, 224, 1);
   /*background-image: url('../images/mac-glasses.jpg');*/
   text-align: center;
 }
 
+
+/* === Tablet Styling === */
 @media (max-width:991px){
   .header-logo{
     width: 0px;
@@ -142,6 +121,8 @@ File Description: Place here your custom CSS styles
 
 }
 
+
+/* === Mobile Styling === */
 @media (max-width: 768px){
 
   .banner video{
@@ -150,5 +131,21 @@ File Description: Place here your custom CSS styles
 
   .banner-image{
     background-image: url("../images/Top_viewDesk.jpg");
+  }
+
+  .banner-caption h1 {
+      font-size: 2.5em;
+  }
+
+  .devicons{
+    font-size: 3em;
+  }
+
+  .devicons:focus{
+    color: RGBA(50, 154, 234, 1);
+  }
+
+  .about-icons li{
+    display: none;
   }
 }
