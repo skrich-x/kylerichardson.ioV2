@@ -23,6 +23,12 @@ File Description: Place here your custom CSS styles
   font-weight: 700;
 }
 
+.scroll-down{
+  opacity: .25;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 2em;
+}
 
 /* === ABOUT SECTION === */
 .aboutBG{
