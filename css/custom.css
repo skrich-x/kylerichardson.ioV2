@@ -23,14 +23,30 @@ File Description: Place here your custom CSS styles
   font-weight: 700;
 }
 
+.scroll-down{
+  opacity: .25;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 2em;
+}
 
 /* === ABOUT SECTION === */
 .aboutBG{
   background-color: RGBA(224, 224, 224, 1);
 }
 
+.dev-design-header{
+  font-size: 3em;
+  font-weight: 200;
+}
+
 .devBio{
-  font-size: 1.25em;
+  font-size: 2.25em;
+  font-weight: 200;
+}
+
+.devBio span{
+  font-weight: 400;
 }
 
 .fa-lightbulb-o{
