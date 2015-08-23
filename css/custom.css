@@ -30,10 +30,16 @@ File Description: Place here your custom CSS styles
   padding-top: 2em;
 }
 
+.banner-image{
+  position:relative;
+  z-index: -1;
+}
+
 /* === ABOUT SECTION === */
 .aboutBG{
   background-color: RGBA(224, 224, 224, 1);
 }
+
 
 .dev-design-header{
   font-size: 3em;
