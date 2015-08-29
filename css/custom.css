@@ -118,9 +118,16 @@ File Description: Place here your custom CSS styles
 
 
 /* ==== CONNECT BANNER === */
+.connect-section{
+  background-color: black;
+}
 .connect{
   text-align: center;
   font-weight: 200;
+}
+
+.social-links{
+  padding-bottom: 2px;
 }
 
 .social-links li.medium a:hover {
