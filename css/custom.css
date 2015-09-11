@@ -13,10 +13,10 @@ File Description: Place here your custom CSS styles
 .text-center{
   font-weight: 200;
 }
-
-.home-nav{
+/*
+.home-nav {
   display: flex;
-}
+}*/
 
 .header-logo{
   width: 120px;
@@ -157,6 +157,10 @@ File Description: Place here your custom CSS styles
 
 /* === Mobile Styling === */
 @media (max-width: 768px){
+
+  .home-nav a{
+    display: none;
+  }
 
   .banner video{
     display: none;
