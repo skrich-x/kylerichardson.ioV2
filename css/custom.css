@@ -85,6 +85,14 @@ File Description: Place here your custom CSS styles
 
 
 /* === SKILLS SECTION === */
+.skills-background{
+background-image: url("../images/MAXdesk.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .devicons{
   font-size: 5em;
 }
