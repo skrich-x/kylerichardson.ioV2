@@ -85,8 +85,17 @@ File Description: Place here your custom CSS styles
 
 
 /* === SKILLS SECTION === */
+.skills-background{
+background-image: url("../images/Top_viewDesk.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .devicons{
-  font-size: 5em;
+  color:#E0E0E0;
+  font-size: 6em;
 }
 
 .devicons:hover{
@@ -100,6 +109,11 @@ File Description: Place here your custom CSS styles
 .list-horizontal{
   text-align: center;
 }
+
+.row-spacer{
+  height:10em;
+}
+
 
 
 /* === PORTFOLIO SECTION === */
