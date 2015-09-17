@@ -103,6 +103,7 @@ background-image: url("../images/Top_viewDesk.jpg");
 }
 
 .techSkillBanner{
+  font-family: 'Roboto';
   color: #5AABF3;
   font-size: 4.5em;
   font-weight: 100;
