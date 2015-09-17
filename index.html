@@ -41,6 +41,10 @@
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
+		<!-- Toastr CSS -->
+		<link href="bower_components/toastr/toastr.css" rel="stylesheet"/>
+		<link href="bower_components/hint.css/hint.css"rel="stylesheet" ></link>
+
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -56,6 +60,7 @@
 
 		<!-- Custom css -->
 		<link href="css/custom.css" rel="stylesheet">
+
 	</head>
 
 	<body class="no-trans">
@@ -293,18 +298,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="container skills-opacity">
+			<div class="container">
 				<div class="list-horizontal">
 					<div class="row">
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 hint--top" data-hint="HTML5" target="blank">
 								<span class="devicons devicons-html5"></span></a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 hint--top" data-hint="CSS3" target="blank">
 								<span class="devicons devicons-css3"></span>
 								</a>
 							</a>
@@ -312,28 +317,28 @@
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://sass-lang.com/">
+								<a href="http://sass-lang.com/ hint--top" data-hint="SASS">
 								<span class="devicons devicons-sass"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript hint--top" data-hint="Javascript" target="blank">
 								<span class="devicons devicons-javascript_badge"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://jquery.com/" target="blank">
+								<a href="http://jquery.com/ hint--top" data-hint="jQuery" target="blank">
 								<span class="devicons devicons-jquery"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://git-scm.com/" target="blank">
+								<a href="https://git-scm.com/ hint--top" data-hint="Git Version Control" target="blank">
 								<span class="devicons devicons-git"></span>
 								</a>
 							</div>
@@ -346,42 +351,42 @@
 					<div class="row">
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://emberjs.com/" target="blank">
+							<a href="http://emberjs.com/ hint--top" data-hint="Ember.js" target="blank">
 								<span class="devicons devicons-ember"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://backbonejs.org/" target="blank">
+								<a href="http://backbonejs.org/ hint--top" data-hint="Backbone.js" target="blank">
 								<span class="devicons devicons-backbone"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://getbootstrap.com/" target="blank">
+								<a href="http://getbootstrap.com/ hint--top" data-hint="Bootstrap3" target="blank">
 								<span class="devicons devicons-bootstrap"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="https://www.npmjs.com/" target="blank">
+							<a href="https://www.npmjs.com/ hint--top" data-hint="Node Package Manager" target="blank">
 								<span class="devicons devicons-npm"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://bower.io/" target="blank">
+							<a href="http://bower.io/ hint--top" data-hint="Bower.io" target="blank">
 								<span class="devicons devicons-bower"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://neat.bourbon.io/" target="blank">
+							<a href="http://neat.bourbon.io/ hint--top" data-hint="Bourbon Neat" target="blank">
 								<span class="devicons devicons-responsive"></span>
 							</a>
 							</div>
@@ -729,6 +734,9 @@
 		<!-- Jquery and Bootstap core js files -->
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Toastr JS -->
+		<script src="bower_components/toastr/toastr.min.js"></script>
 
 		<!-- Modernizr javascript -->
 		<script type="text/javascript" src="plugins/modernizr.js"></script>
