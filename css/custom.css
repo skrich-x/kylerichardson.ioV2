@@ -23,6 +23,11 @@ File Description: Place here your custom CSS styles
   height: auto;
 }
 
+.tag-line span{
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
 .text-center span{
   font-weight: 700;
 }
@@ -37,6 +42,28 @@ File Description: Place here your custom CSS styles
 .banner-image{
   position:relative;
   z-index: -1;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 /* === ABOUT SECTION === */
