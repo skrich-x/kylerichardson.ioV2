@@ -15,15 +15,3 @@
 //         toastr.success('Click Button');
 //      });
 //    });
-
-//tooltipster js//
-  $(document).ready(function() {
-    $('.tooltip').tooltipster();
-    $('.tooltip').tooltipster({
-   animation: 'fade',
-   delay: 200,
-   theme: 'tooltipster-default',
-   touchDevices: false,
-   trigger: 'hover'
-});
-  });
