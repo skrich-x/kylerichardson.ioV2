@@ -136,13 +136,6 @@ background-image: url("../images/Top_viewDesk.jpg");
   font-weight: 100;
 }
 
-/*.skill-icon{
-  background-color:#E0E0E0;
-  z-index: 5;
-  border-radius: 50%;
-  position: absolute;
-}*/
-
 .list-horizontal{
   text-align: center;
 }
@@ -215,10 +208,6 @@ background-image: url("../images/Top_viewDesk.jpg");
 
   .banner video{
     display: none;
-  }
-
-  .banner-image{
-    background-image: url("../images/Top_viewDesk.jpg");
   }
 
   .banner-caption h1 {
