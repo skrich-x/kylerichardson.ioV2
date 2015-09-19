@@ -18,7 +18,7 @@
 
 $(function(){
         $(".tag-line").typed({
-            strings: ["Modern Front End Development and Design"],
+            strings: [" ^1500 Modern Front End Development and Design"],
             typeSpeed: 50
         });
     });
