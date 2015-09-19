@@ -15,3 +15,10 @@
 //         toastr.success('Click Button');
 //      });
 //    });
+
+$(function(){
+        $(".tag-line").typed({
+            strings: ["Modern Front End Development and Design"],
+            typeSpeed: 50
+        });
+    });
