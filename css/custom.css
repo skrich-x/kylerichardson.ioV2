@@ -13,24 +13,21 @@ File Description: Place here your custom CSS styles
 .text-center{
   font-weight: 200;
 }
-/*
-.home-nav {
-  display: flex;
-}*/
 
 .header-logo{
   width: 120px;
   height: auto;
 }
 
-.tag-line span{
+.hero-Heading span{
+  font-weight: 500;
+}
+
+.tag-line{
   font-family: 'Roboto';
   font-weight: 100;
 }
 
-.text-center span{
-  font-weight: 700;
-}
 
 .scroll-down{
   opacity: .25;
