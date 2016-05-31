@@ -37,9 +37,16 @@
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,900' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Toastr CSS -->
+		<link href="bower_components/toastr/toastr.css" rel="stylesheet">
+
+		<!-- Hint CSS -->
+		<link href="bower_components/hint.css/hint.css"rel="stylesheet">
 
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -56,6 +63,7 @@
 
 		<!-- Custom css -->
 		<link href="css/custom.css" rel="stylesheet">
+
 	</head>
 
 	<body class="no-trans">
@@ -116,7 +124,7 @@
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="#banner">Home</a></li>
+												<li class="active home-nav"><a href="#banner">Home</a></li>
 												<li><a href="#about">About</a></li>
 												<li><a href="#services">Skills</a></li>
 												<li><a href="#portfolio">Portfolio</a></li>
@@ -151,7 +159,7 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
 							<h1 class="text-center hero-Heading">kyle<span>richardson</span>.io</h1>
-							<p class="lead text-center type">Modern Front End Development and Design</p>
+							<p class="lead text-center type"><span class="tag-line">Modern Front End Development and Design</span></p>
 							<div class="scroll-down object-non-visible scrollspy smooth-scroll"   data-animation-effect="fadeInUpSmall" >
 								<a href="#about"><i class="fa fa-angle-double-down scroll-down pulse"></i></a>
 							</div>
@@ -164,7 +172,7 @@
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="section clearfix object-non-visible aboutBG" data-animation-effect="fadeIn">
+		<div class="section clearfix aboutBG">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 ">
@@ -178,7 +186,7 @@
 							</div>
 							<div class="col-md-6">
 								<!-- <h2>Stategies and Tools</h2> -->
-								<ul class="about-icons list-unstyled "data-animation-effect="flip">
+								<ul class="about-icons list-unstyled">
 									<li><i class="fa fa-lightbulb-o pr-10 text-colored" ></i> Think</li>
 									<li><i class="fa fa-pencil pr-10 text-colored"></i> Create</li>
 									<li><i class="fa fa-code pr-10 text-colored"></i> Execute</li>
@@ -228,7 +236,7 @@
 
 												<p>My passion lies in leveraging my experiences in technology, art, and creative problem solving to provide a fresh perspective and compelling results. I bring a unique combination of skills to my projects,  making each a thoughtful and intuitive experience.</p>
 
-												<p> Whether the canvas is completed with code or with pen and paper, I enjoy all types of creativity and design. In my spare time I enjoy pursing many types of art, spending time with my family and friends including my lab-shepherd mix Titus, and reading anything besides online code Docs.</p>
+												<p> Whether the canvas is completed with code or with pen and paper, I enjoy all types of creativity and design. In my spare time I enjoy pursuing many types of art, spending time with my family and friends including my lab-shepherd mix Titus, and reading almost anything!</p>
 												<p> A love of the outdoors and a passion for rock climbing has lead to dozens of roadtrips, hundreds of mosquito bites, and far too much trail-mix. </p>
 
 
@@ -275,27 +283,36 @@
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 ">
-						<h1 id="services" class="techSkillBanner">Technical Skills</h1>
+						<div class="skill-icon">
+							<h1></h1>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
+		<div class="skills-background">
 		<!-- ================ -->
-		<div class="translucent-bg blue">
+			<div class="container">
+
+				<div class="list-horizontal">
+					<div class="row row-spacer">
+						<span  id="services" class="techSkillBanner col-md-8 col-md-offset-2 "> Technical Skills </span>
+					</div>
+				</div>
+			</div>
 			<div class="container">
 				<div class="list-horizontal">
 					<div class="row">
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" class="hint--top hint--info" data-hint="HTML5" target="blank">
 								<span class="devicons devicons-html5"></span></a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" class="hint--top hint--info" data-hint="CSS3" target="blank">
 								<span class="devicons devicons-css3"></span>
 								</a>
 							</a>
@@ -303,28 +320,29 @@
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://sass-lang.com/">
+								<a href="http://sass-lang.com/" class="hint--top hint--info" data-hint="SASS">
 								<span class="devicons devicons-sass"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">
+								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+								class="hint--top hint--info" data-hint="Javascript" target="blank">
 								<span class="devicons devicons-javascript_badge"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://jquery.com/" target="blank">
+								<a href="http://jquery.com/" class="hint--top hint--info" data-hint="jQuery" target="blank">
 								<span class="devicons devicons-jquery"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="https://git-scm.com/" target="blank">
+								<a href="https://git-scm.com/" class="hint--left hint--info" data-hint="Git Version Control" target="blank">
 								<span class="devicons devicons-git"></span>
 								</a>
 							</div>
@@ -332,49 +350,47 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="translucent-bg blue">
 			<div class="container">
 				<div class="list-horizontal">
 					<div class="row">
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://emberjs.com/" target="blank">
+							<a href="http://emberjs.com/" class="hint--top hint--info" data-hint="Ember.js" target="blank">
 								<span class="devicons devicons-ember"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://backbonejs.org/" target="blank">
+								<a href="http://backbonejs.org/" class="hint--top hint--info" data-hint="Backbone.js" target="blank">
 								<span class="devicons devicons-backbone"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-								<a href="http://getbootstrap.com/" target="blank">
+								<a href="http://getbootstrap.com/" class="hint--top hint--info" data-hint="Bootstrap3" target="blank">
 								<span class="devicons devicons-bootstrap"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="https://www.npmjs.com/" target="blank">
+							<a href="https://www.npmjs.com/" class="hint--top hint--info" data-hint="Node Package Manager" target="blank">
 								<span class="devicons devicons-npm"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://bower.io/" target="blank">
+							<a href="http://bower.io/" class="hint--top hint--info" data-hint="Bower.io" target="blank">
 								<span class="devicons devicons-bower"></span>
 							</a>
 							</div>
 						</div>
 						<div class="col-xs-2">
 							<div class="list-horizontal-item">
-							<a href="http://neat.bourbon.io/" target="blank">
+							<a href="http://neat.bourbon.io/" class="hint--left hint--info" data-hint="Bourbon Neat" target="blank">
 								<span class="devicons devicons-responsive"></span>
 							</a>
 							</div>
@@ -382,8 +398,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
+			<div class="container">
+				<div class="list-horizontal">
+					<div class="row row-spacer">
+					</div>
+				</div>
+			</div>
+	</div>
 		<!-- section end -->
 
 
@@ -623,13 +644,13 @@
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="default-bg space">
+		<div class="default-bg space connect-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<a href="mailto:kyle@kylerichardson.io"><h4 class="connect">Connect and Follow</h4></a>
 						<h1 class="text-center">
-							<ul class="social-links">
+							<ul  id="contact" class="social-links">
 								<li class="twitter"><a target="_blank" href="https://twitter.com/skrich_x"><i class="fa fa-twitter"></i></a></li>
 								<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
 								<li class="linkedin"><a target="blank" href="https://www.linkedin.com/in/kylerichardson7"><i class="fa fa-linkedin"></i></a></li>
@@ -652,7 +673,7 @@
 			<!-- ================ -->
 			<div class="footer section">
 				<div class="container">
-					<h1 class="title text-center" id="contact">Contact</h1>
+					<h1 class="title text-center" >Contact</h1>
 					<div class="space"></div>
 					<div class="row">
 						<!-- <div class="col-sm-6"> -->
@@ -663,7 +684,7 @@
 								<ul class="list-icons">
 									<!-- <li><i class="fa fa-map-marker pr-10"></i>Pageland, SC</li> -->
 									<li><a href="mailto:kyle@kylerichardson.io"><i class="fa fa-envelope-o pr-10"></i>kyle@kylerichardson.io</a></li>
-									<li><a href="images/frontendDevKR.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Resume</a></li>
+									<li><a href="images/frontendDevSKR.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Resume</a></li>
 								</ul>
 
 							</div>
@@ -689,8 +710,8 @@
 									</div>
 									<input type="submit" value="Send" class="btn btn-default">
 								</form>
-							</div> -->
-						</div>
+							</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -717,6 +738,12 @@
 		<!-- Jquery and Bootstap core js files -->
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!--Typed JS-->
+		<script type="text/javascript" src="bower_components/typed.js/js/typed.js"></script>
+
+		<!-- Toastr JS -->
+		<script src="bower_components/toastr/toastr.min.js"></script>
 
 		<!-- Modernizr javascript -->
 		<script type="text/javascript" src="plugins/modernizr.js"></script>

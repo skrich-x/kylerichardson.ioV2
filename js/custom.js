@@ -6,3 +6,19 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Place here your custom scripts
  */
+
+// //Toaster Call//
+//  $(document).ready(function() {
+//      toastr.options.timeOut = 1500; // 1.5s
+//      toastr.info('Page Loaded!');
+//      $('#logo').click(function() {
+//         toastr.success('Click Button');
+//      });
+//    });
+
+$(function(){
+        $(".tag-line").typed({
+            strings: [" ^1500 Modern Front End Development and Design"],
+            typeSpeed: 50
+        });
+    });
